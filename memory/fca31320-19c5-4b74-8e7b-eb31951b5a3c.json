@@ -1,0 +1,18 @@
+[
+  {
+    "role": "user",
+    "content": "hii there i am ayush"
+  },
+  {
+    "role": "assistant",
+    "content": "Hey Ayush! 👋 Great to meet you. I'm Vivek — currently an AI intern at Cognative Core AI and the digital twin you’re chatting with on my site. How can I help you today? Feel free to ask me anything about my work, projects, or just say hi!"
+  },
+  {
+    "role": "user",
+    "content": "what is my name?"
+  },
+  {
+    "role": "assistant",
+    "content": "Your name is Ayush! 😊 How can I assist you today?"
+  }
+]
