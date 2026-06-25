@@ -28,7 +28,7 @@ app.add_middleware(
 )
 
 # Initialize OpenAI client
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI(base_url="https://api.groq.com/openai/v1",api_key=os.getenv("GROQ_API_KEY"))
 
 # Memory storage configuration
 USE_S3 = os.getenv("USE_S3", "false").lower() == "true"
@@ -133,7 +133,7 @@ async def chat(request: ChatRequest):
 
         # Call OpenAI API
         response = client.chat.completions.create(
-            model="gpt-4o-mini", 
+            model="openai/gpt-oss-120b", 
             messages=messages
         )
 
