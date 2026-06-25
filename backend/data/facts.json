@@ -1,0 +1,20 @@
+{
+  "full_name": "Vivek Prajapati",
+  "name": "Vivek",
+  "current_role": "Ai engineer",
+  "location": "Cognative core AI",
+  "email": "prajapativivek@gmail.com",
+  "specialties": [
+    "LLM",
+    "Logic building",
+    "Agentic AI"
+  ],
+  "years_experience": 10,
+  "education": [
+    {
+      "degree": "B.tech CSE",
+      "institution": "Nirma University",
+      "year": "2027"
+    }
+  ]
+}
